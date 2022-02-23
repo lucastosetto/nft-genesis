@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.2.4",
+    "@openzeppelin/contracts": "^4.5.0",
+    "dotenv": "^16.0.0"
+  },
+  "name": "nft-genesis",
+  "version": "1.0.0",
+  "description": "The beggining of my web3 journey...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucastosetto/nft-genesis.git"
+  },
+  "keywords": [
+    "nft",
+    "erc-721",
+    "blockchain",
+    "web3"
+  ],
+  "author": "Lucas Tosetto Morvillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucastosetto/nft-genesis/issues"
+  },
+  "homepage": "https://github.com/lucastosetto/nft-genesis#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.8.4",
+    "solc": "^0.8.12"
+  }
+}
